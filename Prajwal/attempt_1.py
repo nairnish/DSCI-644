@@ -1,3 +1,5 @@
+import warnings
+
 import numpy as np
 import pandas as pd
 from sklearn.compose import ColumnTransformer
@@ -52,7 +54,7 @@ class my_model():
         #                                ('classifier', SGDClassifier(class_weight="balanced"))])
 
         log_reg_pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                                       ('classifier', RandomForestClassifier())])
+                                       ('classifier', LinearSVC())])
 
         self.clf = log_reg_pipe
 
@@ -93,7 +95,7 @@ class my_model():
 
         
     def clean_all_data(self, X):
-        #warnings.filterwarnings(action='ignore')
+        warnings.filterwarnings(action='ignore')
 
         #fillna to location column
         # data_frame['location'] = data_frame.location.fillna('none')
