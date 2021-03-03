@@ -9,13 +9,13 @@ from collections import OrderedDict
 from sklearn.tree import DecisionTreeClassifier
 
 from sklearn.model_selection import StratifiedKFold, GridSearchCV
-from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import GaussianNB, BernoulliNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
-from sklearn.svm import SVC
+from sklearn.svm import SVC, LinearSVC
 from gensim.parsing.preprocessing import STOPWORDS
 from gensim.parsing.preprocessing import remove_stopwords
 import nltk
@@ -35,9 +35,9 @@ class my_model():
         # required_binary_features = ['has_company_logo']
         # binary_transformer = Pipeline(steps=[('label', OneHotEncoder(handle_unknown='ignore'))])
         # cat_transformer = Pipeline(steps=[('onehot', OneHotEncoder(handle_unknown='ignore'))])
-        # text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(ngram_range=(1, 2)))])
-        text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(stop_words='english', norm='l2', use_idf=False, smooth_idf=False))])
+        text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(ngram_range=(1, 2)))])
         # text_transformer = Pipeline(steps=[('nltk', nltk.tokenize)])
+        # text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(stop_words='english', norm='l2', use_idf=False, smooth_idf=False))])
 
         preprocessor = ColumnTransformer(
             transformers=[
@@ -52,7 +52,7 @@ class my_model():
         #                                ('classifier', SGDClassifier(class_weight="balanced"))])
 
         log_reg_pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                                       ('classifier', MultinomialNB())])
+                                       ('classifier', RandomForestClassifier())])
 
         self.clf = log_reg_pipe
 
@@ -73,9 +73,9 @@ class my_model():
         # required_binary_features = ['has_company_logo']
         # binary_transformer = Pipeline(steps=[('label', OneHotEncoder(handle_unknown='ignore'))])
         # cat_transformer = Pipeline(steps=[('onehot', OneHotEncoder(handle_unknown='ignore'))])
-        # text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(ngram_range=(1, 2)))])
+        text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(ngram_range=(1, 2)))])
         # text_transformer = Pipeline(steps=[('nltk', nltk.tokenize)])
-        text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(stop_words='english', norm='l2', use_idf=False, smooth_idf=False))])
+        # text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(stop_words='english', norm='l2', use_idf=False, smooth_idf=False))])
 
         preprocessor = ColumnTransformer(
             transformers=[
