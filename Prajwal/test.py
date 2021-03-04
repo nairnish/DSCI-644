@@ -22,7 +22,7 @@ def test(data):
     clf.fit(X_train, y_train)
     predictions = clf.predict(X_test)
     f1 = metrics.f1_score(y_test, predictions, average='micro')
-    print(classification_report(y_test,predictions))
+    #print(classification_report(y_test,predictions))
     # eval = my_evaluation(predictions, y_test)
     # f1 = eval.f1(target=1)
     return f1
