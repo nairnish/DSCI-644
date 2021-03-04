@@ -1,0 +1,324 @@
+                                                                                                                                             precision    recall  f1-score   support
+
+                                                                                                                         Extract Interface,       0.57      0.57      0.57         7
+                                                                                                          Extract Interface,Extract Method,       0.50      0.25      0.33         4
+                                                                                      Extract Interface,Extract Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                      Extract Interface,Extract Superclass,       0.00      0.00      0.00         1
+                                                                                       Extract Interface,Extract Superclass,Extract Method,       0.00      0.00      0.00         1
+                                                                                                             Extract Interface,Move Method,       0.00      0.00      0.00         0
+                                                                                              Extract Interface,Move Method,Extract Method,       0.00      0.00      0.00         2
+                                                                               Extract Interface,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                     Extract Interface,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                            Extract Interface,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                                   Extract Interface,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                 Extract Interface,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         0
+                                               Extract Interface,Rename Method,Move Method,Extract Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                 Extract Interface,Rename Method,Pull Up Method,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                                                            Extract Method,       0.51      0.92      0.66       505
+                                                                                                              Extract Method,Inline Method,       0.50      0.21      0.30        14
+                                                                                               Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                             Extract Method,Move Attribute,       1.00      0.14      0.25         7
+                                                                                                          Extract Method,Pull Up Attribute,       0.00      0.00      0.00         3
+                                                                                                                        Extract Superclass,       0.12      0.33      0.18         6
+                                                                                       Extract Superclass,Extract Interface,Extract Method,       0.00      0.00      0.00         0
+                                      Extract Superclass,Extract Interface,Push Down Method,Move Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                         Extract Superclass,Extract Method,       0.00      0.00      0.00         6
+                                                                                          Extract Superclass,Pull Up Method,Extract Method,       0.00      0.00      0.00         1
+                                                                        Extract Superclass,Pull Up Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         0
+                                                                         Extract Superclass,Pull Up Method,Inline Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                                          Extract Superclass,Rename Method,       0.00      0.00      0.00         3
+                                                                                           Extract Superclass,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                              Extract Superclass,Rename Method,Move Method,       0.00      0.00      0.00         1
+                                                              Extract Superclass,Rename Method,Pull Up Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                  Extract Superclass,Rename Method,Pull Up Method,Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                                                             Inline Method,       0.53      0.20      0.29        51
+                                                                                                                     Move And Rename Class,       0.50      0.30      0.37        10
+                                                                                                   Move And Rename Class,Extract Interface,       1.00      1.00      1.00         1
+                                                                                    Move And Rename Class,Extract Interface,Extract Method,       0.00      0.00      0.00         1
+                                                                                                      Move And Rename Class,Extract Method,       0.00      0.00      0.00         1
+                                                                                                      Move And Rename Class,Move Attribute,       1.00      0.50      0.67         2
+                                                                               Move And Rename Class,Move Class,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                  Move And Rename Class,Move Class,Rename Method,Move Method,Extract Method,Move Attribute,       1.00      1.00      1.00         1
+                                                                                                         Move And Rename Class,Move Method,       0.00      0.00      0.00         4
+                                                                            Move And Rename Class,Move Method,Inline Method,Move Attribute,       1.00      1.00      1.00         1
+                                                 Move And Rename Class,Rename Class,Rename Method,Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                       Move And Rename Class,Rename Method,       0.00      0.00      0.00         2
+                                                                          Move And Rename Class,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         2
+                                                                                         Move And Rename Class,Rename Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                           Move And Rename Class,Rename Method,Move Method,       0.00      0.00      0.00         2
+                                                             Move And Rename Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                           Move And Rename Class,Rename Method,Pull Up Method,Move Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                            Move Attribute,       0.00      0.00      0.00        15
+                                                                                                                                Move Class,       0.48      0.44      0.46        71
+                                                                                                              Move Class,Extract Interface,       0.00      0.00      0.00         1
+                                                                                   Move Class,Extract Interface,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                 Move Class,Extract Method,       0.67      0.29      0.40         7
+                                                                                               Move Class,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         0
+                                                                                             Move Class,Extract Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                              Move Class,Extract Superclass,Extract Method,       0.00      0.00      0.00         1
+                                                    Move Class,Extract Superclass,Pull Up Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                Move Class,Extract Superclass,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                               Move Class,Extract Superclass,Rename Method,Pull Up Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                                                  Move Class,Inline Method,       0.00      0.00      0.00         2
+                                                                                                          Move Class,Move And Rename Class,       1.00      0.50      0.67         2
+                                                                          Move Class,Move And Rename Class,Extract Interface,Rename Method,       0.00      0.00      0.00         2
+                                                           Move Class,Move And Rename Class,Extract Interface,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                                                Move Class,Move And Rename Class,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         4
+                                                                               Move Class,Move And Rename Class,Move Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                             Move Class,Move And Rename Class,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                Move Class,Move And Rename Class,Rename Method,Move Method,       0.00      0.00      0.00         1
+                                                   Move Class,Move And Rename Class,Rename Method,Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         0
+                                                   Move Class,Move And Rename Class,Rename Method,Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                 Move Class,Move And Rename Class,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                    Move Class,Move Method,       0.00      0.00      0.00         7
+                                                                                                     Move Class,Move Method,Extract Method,       0.00      0.00      0.00         3
+                                                                        Move Class,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         3
+                                                                                      Move Class,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         8
+                                                                                                      Move Class,Move Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                       Move Class,Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                     Move Class,Move Method,Move Attribute,       0.12      0.08      0.10        12
+                                                                    Move Class,Pull Up Method,Move Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                               Move Class,Push Down Method,Move Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                Move Class,Push Down Method,Move Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                      Move Class,Rename Class,Extract Interface,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                   Move Class,Rename Class,Move And Rename Class,Move Method,Extract Method,Move Attribute,       1.00      1.00      1.00         1
+                                                                                                    Move Class,Rename Class,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                       Move Class,Rename Class,Move Method,       0.00      0.00      0.00         0
+                                                                                        Move Class,Rename Class,Move Method,Move Attribute,       1.00      0.50      0.67         2
+                                                                                                                  Move Class,Rename Method,       0.00      0.00      0.00         4
+                                                                                                   Move Class,Rename Method,Extract Method,       0.00      0.00      0.00         0
+                                                                                                   Move Class,Rename Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                      Move Class,Rename Method,Move Method,       0.00      0.00      0.00         2
+                                                                                       Move Class,Rename Method,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                         Move Class,Rename Method,Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                          Move Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.50      0.33      0.40         3
+                                                                        Move Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                        Move Class,Rename Method,Move Method,Inline Method,       0.00      0.00      0.00         0
+                                                                         Move Class,Rename Method,Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                       Move Class,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         4
+                                                                      Move Class,Rename Method,Push Down Method,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                                                               Move Method,       0.27      0.07      0.12        54
+                                                                                                                Move Method,Extract Method,       0.18      0.07      0.11        27
+                                                                                                  Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         4
+                                                                                                 Move Method,Extract Method,Move Attribute,       0.67      0.33      0.44        12
+                                                                                                                 Move Method,Inline Method,       0.00      0.00      0.00         3
+                                                                                                  Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                             Move Method,Inline Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                Move Method,Move Attribute,       0.45      0.18      0.26        28
+                                                                                                                         Pull Up Attribute,       1.00      0.33      0.50         3
+                                                                                                                            Pull Up Method,       1.00      0.43      0.60         7
+                                                                                                             Pull Up Method,Extract Method,       1.00      0.25      0.40         4
+                                                                                               Pull Up Method,Extract Method,Inline Method,       0.00      0.00      0.00         0
+                                                                                           Pull Up Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         3
+                                                                    Pull Up Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                               Pull Up Method,Move Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                                 Pull Up Method,Move Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                              Pull Up Method,Move Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                               Pull Up Method,Move Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                          Pull Up Method,Pull Up Attribute,       0.67      0.57      0.62         7
+                                                                                                                       Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                          Push Down Method,       0.00      0.00      0.00         2
+                                                                                                           Push Down Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                             Push Down Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                       Push Down Method,Extract Method,Push Down Attribute,       0.00      0.00      0.00         2
+                                                                                               Push Down Method,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                           Push Down Method,Move Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                      Push Down Method,Push Down Attribute,       0.25      0.25      0.25         4
+                                                                                                                              Rename Class,       0.25      0.18      0.21        45
+                                                                                                            Rename Class,Extract Interface,       0.50      1.00      0.67         1
+                                                                                             Rename Class,Extract Interface,Extract Method,       0.00      0.00      0.00         1
+                                      Rename Class,Extract Interface,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       1.00      1.00      1.00         1
+                                                                                                               Rename Class,Extract Method,       1.00      0.09      0.17        11
+                                                                                  Rename Class,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                            Rename Class,Extract Superclass,Extract Method,       0.00      0.00      0.00         1
+                                                                                             Rename Class,Extract Superclass,Rename Method,       1.00      1.00      1.00         1
+                                                   Rename Class,Extract Superclass,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                Rename Class,Inline Method,       0.00      0.00      0.00         1
+                                                                                                        Rename Class,Move And Rename Class,       0.00      0.00      0.00         2
+                                           Rename Class,Move And Rename Class,Extract Interface,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         0
+                                                                             Rename Class,Move And Rename Class,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                             Rename Class,Move And Rename Class,Pull Up Method,Move Method,       0.00      0.00      0.00         0
+                                          Rename Class,Move And Rename Class,Pull Up Method,Push Down Method,Move Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                          Rename Class,Move And Rename Class,Rename Method,       1.00      0.25      0.40         4
+                                                               Rename Class,Move And Rename Class,Rename Method,Move Method,Extract Method,       0.00      0.00      0.00         2
+                                  Rename Class,Move And Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       1.00      1.00      1.00         1
+                                                                                                               Rename Class,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                       Rename Class,Move Class,Move Method,       0.00      0.00      0.00         1
+                                                                              Rename Class,Move Class,Push Down Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                             Rename Class,Move Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                           Rename Class,Move Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                          Rename Class,Move Class,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                  Rename Class,Move Method,       0.00      0.00      0.00         2
+                                                                                                   Rename Class,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                      Rename Class,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                    Rename Class,Move Method,Inline Method,       0.00      0.00      0.00         0
+                                                                                                   Rename Class,Move Method,Move Attribute,       1.00      0.50      0.67         2
+                                                                                             Rename Class,Pull Up Method,Pull Up Attribute,       0.00      0.00      0.00         0
+                                                                                                          Rename Class,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                             Rename Class,Push Down Method,       0.00      0.00      0.00         1
+                                                                          Rename Class,Push Down Method,Push Down Attribute,Move Attribute,       1.00      1.00      1.00         1
+                                                                                                                Rename Class,Rename Method,       0.29      0.08      0.13        24
+                                                                                                 Rename Class,Rename Method,Extract Method,       0.20      0.14      0.17         7
+                                                                                   Rename Class,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         2
+                                                                                  Rename Class,Rename Method,Extract Method,Move Attribute,       0.50      1.00      0.67         1
+                                                                                                  Rename Class,Rename Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                                    Rename Class,Rename Method,Move Method,       0.00      0.00      0.00         2
+                                                                                     Rename Class,Rename Method,Move Method,Extract Method,       0.00      0.00      0.00         2
+                                                        Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                      Rename Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         4
+                                                                                      Rename Class,Rename Method,Move Method,Inline Method,       0.00      0.00      0.00         0
+                                                                                     Rename Class,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                 Rename Class,Rename Method,Pull Up Method,       0.00      0.00      0.00         1
+                                                                Rename Class,Rename Method,Pull Up Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                Rename Class,Rename Method,Pull Up Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         2
+                                                                           Rename Class,Rename Method,Push Down Method,Push Down Attribute,       0.00      0.00      0.00         2
+                                                                                                                             Rename Method,       0.39      0.64      0.48       266
+                                                                                                              Rename Method,Extract Method,       0.27      0.17      0.21        89
+                                                                                                Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00        12
+                                                                                 Rename Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                              Rename Method,Extract Method,Inline Method,Pull Up Attribute,       0.00      0.00      0.00         0
+                                                                                               Rename Method,Extract Method,Move Attribute,       0.00      0.00      0.00         4
+                                                                                            Rename Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         2
+                                                                                          Rename Method,Extract Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                               Rename Method,Inline Method,       0.25      0.12      0.17        16
+                                                                                                Rename Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                 Rename Method,Move Method,       1.00      0.30      0.46        10
+                                                                                                  Rename Method,Move Method,Extract Method,       0.00      0.00      0.00         9
+                                                                                    Rename Method,Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         2
+                                                                     Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.50      0.17      0.25         6
+                                                                                   Rename Method,Move Method,Extract Method,Move Attribute,       0.50      0.20      0.29        10
+                                                                                Rename Method,Move Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         0
+                                                                                                   Rename Method,Move Method,Inline Method,       0.00      0.00      0.00         2
+                                                                                    Rename Method,Move Method,Inline Method,Move Attribute,       0.33      0.33      0.33         3
+                                                                                                  Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         6
+                                                                                                              Rename Method,Pull Up Method,       0.00      0.00      0.00         2
+                                                                                               Rename Method,Pull Up Method,Extract Method,       0.00      0.00      0.00         7
+                                                                                 Rename Method,Pull Up Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                                             Rename Method,Pull Up Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                                  Rename Method,Pull Up Method,Move Method,       0.00      0.00      0.00         1
+                                                                     Rename Method,Pull Up Method,Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                      Rename Method,Pull Up Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                                                            Rename Method,Push Down Method,       0.00      0.00      0.00         1
+                                                                         Rename Method,Push Down Method,Extract Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                Rename Method,Push Down Method,Move Method,       0.00      0.00      0.00         1
+                                                                                        Rename Method,Push Down Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                         Extract Interface,       0.00      0.00      0.00         1
+                                                                                                          Extract Interface,Extract Method,       0.00      0.00      0.00         1
+                                                                                              Extract Interface,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                            Extract Interface,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                Extract Interface,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                            Extract Method,       0.29      0.37      0.32       104
+                                                                                                              Extract Method,Inline Method,       0.00      0.00      0.00         2
+                                                                                                             Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                          Extract Method,Pull Up Attribute,       0.00      0.00      0.00         2
+                                                                                                                        Extract Superclass,       0.00      0.00      0.00         4
+                                                                                        Extract Superclass,Rename Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                                                             Inline Method,       0.00      0.00      0.00        10
+                                                                                                                     Move And Rename Class,       0.00      0.00      0.00         3
+                                                                                                      Move And Rename Class,Extract Method,       0.00      0.00      0.00         0
+                                                                               Move And Rename Class,Move Class,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                          Move And Rename Class,Move Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                                                       Move And Rename Class,Rename Method,       0.00      0.00      0.00         0
+                                                                                        Move And Rename Class,Rename Method,Extract Method,       0.00      0.00      0.00         0
+                                                                                                                            Move Attribute,       0.00      0.00      0.00         3
+                                                                                                                                Move Class,       0.00      0.00      0.00         9
+                                                                                                              Move Class,Extract Interface,       0.00      0.00      0.00         0
+                                                                                                Move Class,Extract Interface,Rename Method,       0.00      0.00      0.00         1
+                                                                                                                 Move Class,Extract Method,       0.00      0.00      0.00         2
+                                                                                                                  Move Class,Inline Method,       0.00      0.00      0.00         1
+                                                                                                          Move Class,Move And Rename Class,       0.00      0.00      0.00         1
+                                    Move Class,Move And Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                    Move Class,Move Method,       0.00      0.00      0.00         2
+                                                                                                     Move Class,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                      Move Class,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                       Move Class,Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         3
+                                                                                                     Move Class,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                 Move Class,Move Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                             Move Class,Rename Class,Move And Rename Class,       0.00      0.00      0.00         2
+                                  Move Class,Rename Class,Move And Rename Class,Extract Interface,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                              Move Class,Rename Class,Move And Rename Class,Extract Method,       0.00      0.00      0.00         1
+                                                                                 Move Class,Rename Class,Move And Rename Class,Move Method,       0.00      0.00      0.00         1
+                                                                  Move Class,Rename Class,Move And Rename Class,Move Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                               Move Class,Rename Class,Move And Rename Class,Rename Method,       0.00      0.00      0.00         1
+                                     Move Class,Rename Class,Move And Rename Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                        Move Class,Rename Class,Move Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                        Move Class,Rename Class,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                      Move Class,Rename Class,Rename Method,Move Attribute,       0.00      0.00      0.00         1
+                                         Move Class,Rename Class,Rename Method,Move Method,Extract Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                  Move Class,Rename Class,Rename Method,Push Down Method,Inline Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                  Move Class,Rename Method,       0.00      0.00      0.00         1
+                                                                                                   Move Class,Rename Method,Extract Method,       0.00      0.00      0.00         0
+                                                                                     Move Class,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                                    Move Class,Rename Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                                      Move Class,Rename Method,Move Method,       0.00      0.00      0.00         0
+                                                                        Move Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                       Move Class,Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                      Move Class,Rename Method,Push Down Method,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                                                               Move Method,       0.00      0.00      0.00        14
+                                                                                                                Move Method,Extract Method,       0.00      0.00      0.00         4
+                                                                                                  Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                   Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                                 Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                                                Move Method,Move Attribute,       0.00      0.00      0.00        10
+                                                                                                                         Pull Up Attribute,       0.00      0.00      0.00         0
+                                                                                                                            Pull Up Method,       0.00      0.00      0.00         6
+                                                                                                             Pull Up Method,Extract Method,       0.00      0.00      0.00         2
+                                                                                           Pull Up Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         2
+                                                                                                          Pull Up Method,Pull Up Attribute,       0.00      0.00      0.00         3
+                                                                                                                       Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                          Push Down Method,       0.00      0.00      0.00         3
+                                                                                                      Push Down Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                       Push Down Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                              Rename Class,       0.00      0.00      0.00         9
+                                                                                              Rename Class,Extract Interface,Rename Method,       0.00      0.00      0.00         0
+                                                    Rename Class,Extract Interface,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         0
+                               Rename Class,Extract Interface,Rename Method,Push Down Method,Move Method,Inline Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                               Rename Class,Extract Method,       0.00      0.00      0.00         2
+                       Rename Class,Extract Superclass,Extract Interface,Rename Method,Push Down Method,Extract Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                        Rename Class,Move And Rename Class,       0.00      0.00      0.00         1
+                       Rename Class,Move And Rename Class,Move Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                                          Rename Class,Move And Rename Class,Rename Method,       0.00      0.00      0.00         1
+                                                                           Rename Class,Move And Rename Class,Rename Method,Extract Method,       0.00      0.00      0.00         1
+                                                               Rename Class,Move And Rename Class,Rename Method,Move Method,Extract Method,       0.00      0.00      0.00         1
+                                                                                                               Rename Class,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                                   Rename Class,Move Class,       0.00      0.00      0.00         1
+Rename Class,Move Class,Move And Rename Class,Rename Method,Push Down Method,Move Method,Extract Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                           Rename Class,Move Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                      Rename Class,Move Class,Rename Method,Push Down Method,Move Method,Extract Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                                                    Rename Class,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                     Rename Class,Move Method,Inline Method,Move Attribute,       0.00      0.00      0.00         0
+                                                                                                   Rename Class,Move Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                               Rename Class,Move Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                            Rename Class,Push Down Method,Extract Method,Inline Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                Rename Class,Rename Method,       0.00      0.00      0.00         7
+                                                                                   Rename Class,Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         2
+                                                                                  Rename Class,Rename Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                  Rename Class,Rename Method,Inline Method,       0.00      0.00      0.00         1
+                                                                                                    Rename Class,Rename Method,Move Method,       0.00      0.00      0.00         1
+                                                        Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                      Rename Class,Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                      Rename Class,Rename Method,Move Method,Inline Method,       0.00      0.00      0.00         0
+                                                                                  Rename Class,Rename Method,Pull Up Method,Extract Method,       0.00      0.00      0.00         1
+                                     Rename Class,Rename Method,Pull Up Method,Move Method,Extract Method,Pull Up Attribute,Move Attribute,       0.00      0.00      0.00         0
+                   Rename Class,Rename Method,Push Down Method,Move Method,Extract Method,Inline Method,Push Down Attribute,Move Attribute,       0.00      0.00      0.00         1
+                                                               Rename Class,Rename Method,Push Down Method,Move Method,Push Down Attribute,       0.00      0.00      0.00         1
+                                                                                                                             Rename Method,       0.04      0.04      0.04        54
+                                                                                                              Rename Method,Extract Method,       0.00      0.00      0.00        24
+                                                                                                Rename Method,Extract Method,Inline Method,       0.00      0.00      0.00         5
+                                                                                            Rename Method,Extract Method,Pull Up Attribute,       0.00      0.00      0.00         1
+                                                                                                               Rename Method,Inline Method,       0.00      0.00      0.00         3
+                                                                                                                 Rename Method,Move Method,       0.00      0.00      0.00         3
+                                                                                                  Rename Method,Move Method,Extract Method,       0.00      0.00      0.00         2
+                                                                                    Rename Method,Move Method,Extract Method,Inline Method,       0.00      0.00      0.00         2
+                                                                     Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,       0.00      0.00      0.00         5
+                                                                                   Rename Method,Move Method,Extract Method,Move Attribute,       0.00      0.00      0.00         1
+                                                                                                  Rename Method,Move Method,Move Attribute,       0.00      0.00      0.00         2
+                                                                                               Rename Method,Pull Up Method,Extract Method,       0.00      0.00      0.00         0
+                                                                                            Rename Method,Pull Up Method,Pull Up Attribute,       0.00      0.00      0.00         0
+
+                                                                                                                                   accuracy                           0.41      1983
+                                                                                                                                  macro avg       0.10      0.07      0.07      1983
+                                                                                                                               weighted avg       0.33      0.41      0.33      1983
+
+F1 score: 0.407968
+0.30452944835027057

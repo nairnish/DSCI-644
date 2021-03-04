@@ -5,6 +5,7 @@ from attempt_1 import my_model
 from sklearn.compose import ColumnTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import StratifiedKFold, train_test_split
+from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn import metrics
@@ -21,6 +22,7 @@ def test(data):
     clf.fit(X_train, y_train)
     predictions = clf.predict(X_test)
     f1 = metrics.f1_score(y_test, predictions, average='micro')
+    print(classification_report(y_test,predictions))
     # eval = my_evaluation(predictions, y_test)
     # f1 = eval.f1(target=1)
     return f1
