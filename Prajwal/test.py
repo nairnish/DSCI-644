@@ -2,13 +2,10 @@ import time
 import sys
 import pandas as pd
 from attempt_1 import my_model
-from sklearn.compose import ColumnTransformer
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import StratifiedKFold, train_test_split
-from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder
 from sklearn import metrics
+from sklearn.metrics import classification_report, confusion_matrix
+
 
 sys.path.insert(0, '..')
 from my_evaluation import my_evaluation
@@ -22,19 +19,23 @@ def test(data):
     clf.fit(X_train, y_train)
     predictions = clf.predict(X_test)
     f1 = metrics.f1_score(y_test, predictions, average='micro')
-    #print(classification_report(y_test,predictions))
-    # eval = my_evaluation(predictions, y_test)
-    # f1 = eval.f1(target=1)
-    return f1
+    prec = metrics.precision_score(y_test, predictions, average='micro')
+    print(classification_report(y_test,predictions))
+    return f1,prec
 
 
 if __name__ == "__main__":
     start = time.time()
+
     # Load data
-    data = pd.read_csv("/Users/prajwalkrishn/Desktop/My_Computer/dsci-644/project/DSCI-644/Prajwal/data_train.csv")
+    data = pd.read_csv("/Users/prajwalkrishn/Desktop/DSCI644_Project/DSCI-644/Prajwal/datamulti_train.csv",encoding='utf-8')
+
     # Replace missing values with empty strings
     data = data.fillna("")
-    f1 = test(data)
+    f1,prec = test(data)
+
     print("F1 score: %f" % f1)
+    print("Precision score: %f" % prec)
+
     runtime = (time.time() - start) / 60.0
     print(runtime)
