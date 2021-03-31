@@ -52,7 +52,7 @@ class my_model():
         #                                ('classifier', SGDClassifier(class_weight="balanced"))])
 
         log_reg_pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                                       ('classifier', RandomForestClassifier())])
+                                       ('classifier', LinearSVC())])
 
         self.clf = log_reg_pipe
 
@@ -89,6 +89,7 @@ class my_model():
         #                                ('classifier', LogisticRegression())])
         # self.clf = log_reg_pipe
         predictions = self.clf.predict(X)
+        # probs = self.clf.predict_proba(X)
         return predictions
 
         
@@ -115,6 +116,7 @@ class my_model():
         # data_frame['description'] = data_frame.description.str.replace(r'<[^>]*>', '')
         # data_frame['requirements'] = data_frame.requirements.str.replace(r'<[^>]*>', '')
 
+
         spec_chars = ["!", '"', "#", "%", "&", "'", "(", ")",
                       "*", "+", ",", "-", ".", "/", ":", ";", "<",
                       "=", ">", "?", "@", "[", "\\", "]", "^", "_",
@@ -123,6 +125,9 @@ class my_model():
         numbers = ["0", "1","2","3","4","5","6","7","8","9"]
 
         df = pd.DataFrame(X)
+
+        df['FEATURE REQUEST'] = df['FEATURE REQUEST'].str.lower()
+        df['SMELLS'] = df['SMELLS'].str.lower()
 
         for char in spec_chars:
             df['FEATURE REQUEST'] = df['FEATURE REQUEST'].str.replace(char, ' ')
@@ -136,6 +141,7 @@ class my_model():
         df['SMELLS'] = df['SMELLS'].str.replace('https?://\S+|www\.\S+', ' ')
 
         df['combined_text'] = df['FEATURE REQUEST'] + " " + df['SMELLS']
+        # df['combined_text'] = df['FEATURE REQUEST']
         drop_cols = ['FEATURE REQUEST', 'SMELLS']
         df = df.drop(drop_cols, axis=1)
         
