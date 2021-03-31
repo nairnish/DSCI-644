@@ -163,6 +163,11 @@ class my_model():
         for columns in text_columns:
             self.remove_stopwords_from_data_train(df,columns)
         
+        # Add lemmatization
+        
+        # Add tokenization
+        # df = nltk.word_tokenize(df['combined_text'])
+        
         return df
     
     def remove_stopwords_from_data_train(self,data_frame, column_name):
