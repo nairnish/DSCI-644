@@ -28,7 +28,7 @@ if __name__ == "__main__":
     start = time.time()
 
     # Load data
-    data = pd.read_csv("/Users/prajwalkrishn/Desktop/DSCI644_Project/DSCI-644/Prajwal/datamulti_train.csv",encoding='utf-8')
+    data = pd.read_csv("/Users/prajwalkrishn/Desktop/DSCI644_Project/DSCI-644/Prajwal/dataone_train.csv",encoding='utf-8')
 
     # Replace missing values with empty strings
     data = data.fillna("")

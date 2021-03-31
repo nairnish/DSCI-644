@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 import re
 from nltk import sent_tokenize, word_tokenize
 nltk.download('punkt')
-from nltk.stem.snowball import SnowballStemmer
+from nltk.stem.snowball import SnowballStemmer,PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 from sklearn.ensemble import RandomForestClassifier
@@ -139,8 +139,8 @@ class my_model():
         # Add tokenization
         # df = nltk.word_tokenize(df['combined_text'])
         df['combined_text'] = df['combined_text'].str.lower()
-        df['tokens'] = df.apply(self.tokenization_df, axis =1)
-        print(df)
+        df['tokens'] = df.apply(self.tokenization_df, axis = 1)
+        df['stems'] = df.apply(self.stem_df,axis = 1)
         return df
 
     # def tokenization_df(self,data_frame):
@@ -157,6 +157,12 @@ class my_model():
 
         token_words = [words for words in tokens if words.isalpha()]
         return token_words
+
+    def stem_df(self,data_frame):
+        stemming = PorterStemmer()
+        data_frame_token = data_frame['combined_text']
+        stemmed = [stemming.stem(word) for word in data_frame_token]
+        return stemmed
     
     def remove_stopwords_from_data_train(self,data_frame, column_name):
         data_frame[column_name] = data_frame[column_name].apply(lambda x: " ".join([i for i in x.lower().split() if i not in self.all_genism_stop_words]))
