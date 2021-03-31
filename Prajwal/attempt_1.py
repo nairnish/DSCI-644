@@ -159,7 +159,7 @@ class my_model():
         return token_words
 
     def stem_df(self,data_frame):
-        stemming = PorterStemmer()
+        stemming = SnowballStemmer(language='english')
         data_frame_token = data_frame['combined_text']
         stemmed = [stemming.stem(word) for word in data_frame_token]
         return stemmed
