@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="7e2843a1-be6a-4d46-909e-de72c02caf6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="53fb11a3-8334-43d9-988a-b139b794ed27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/attempt_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/attempt_1.py" afterDir="false" />
+>>>>>>> 71aa9a0f0946be58dc179085d5e9d4474ea7d067
+>>>>>>> 247d0beafd36cb0b7d1e6fcc7975fc0e15d7470a
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +30,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> 71aa9a0f0946be58dc179085d5e9d4474ea7d067
   </component>
   <component name="RunManager" selected="Python.attempt_1">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -119,5 +133,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
