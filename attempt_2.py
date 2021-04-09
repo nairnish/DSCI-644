@@ -37,9 +37,9 @@ class my_model():
         # do not exceed 29 mins
         X = self.clean_all_data(X)
 
-        # required_text_features = ['combined_text']
+        required_text_features = ['combined_text']
         # required_text_features = ['combined_text', 'tokens', 'stems', 'lemma']
-        required_text_features = ['tokens']
+        # required_text_features = ['tokens']
         # required_text_features = ['tokens']
         text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(ngram_range=(1, 2)))])
 
@@ -56,7 +56,7 @@ class my_model():
         #                                ('classifier', SGDClassifier(class_weight="balanced"))])
 
         log_reg_pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                                       ('classifier', LinearSVC())])
+                                       ('classifier', RandomForestClassifier())])
 
         self.clf = log_reg_pipe
 
@@ -68,7 +68,8 @@ class my_model():
 
         # required_text_features = ['combined_text', 'tokens', 'stems', 'lemma']
         # required_text_features = ['combined_text', 'tokens']
-        required_text_features = ['tokens']
+        # required_text_features = ['tokens']
+        required_text_features = ['combined_text']
 
         text_transformer = Pipeline(steps=[('tfidf', TfidfVectorizer(ngram_range=(1, 2)))])
 
@@ -123,23 +124,27 @@ class my_model():
 
         # Add tokenization
         # df = nltk.word_tokenize(df['combined_text'])
-        df['combined_text'] = df['combined_text'].str.lower()
-        tokens = df.apply(self.tokenization_df, axis=1)
+        # df['combined_text'] = df['combined_text'].str.lower()
+        # tokens = df.apply(self.tokenization_df, axis=1)
 
 
 
-        for i in df.iterrows():
-            # str1 = ' '.join([str(elem) for elem in tokens[i]])
-            str1 = ""
-            rowIndex = i[0]
-            for j in range(len(tokens[rowIndex])):
-                str1 += tokens[rowIndex][j] + " "
-            # str_array.append(str1)
-            df.loc[rowIndex, 'tokens'] = str1
-            # count = count + 1
-            # df = df.append({'tokens': str1}, ignore_index=True)
-            # df['tokens'].append(str1)
-        # print(df)
+        # for i in df.iterrows():
+        #     # str1 = ' '.join([str(elem) for elem in tokens[i]])
+        #     str1 = ""
+        #     rowIndex = i[0]
+        #     for j in range(len(tokens[rowIndex])):
+        #         str1 += tokens[rowIndex][j] + " "
+        #     # str_array.append(str1)
+        #     df.loc[rowIndex, 'tokens'] = str1
+        #     # count = count + 1
+        #     # df = df.append({'tokens': str1}, ignore_index=True)
+        #     # df['tokens'].append(str1)
+        # # print(df)
+
+        df.apply(self.tokenization_df, axis=1)
+        df.apply(self.stem_df, axis=1)
+        df.apply(self.lemma_df, axis=1)
 
 
         # df['tokens'] = df.apply(self.tokenization_df, axis=1)

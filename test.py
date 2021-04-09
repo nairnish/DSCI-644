@@ -36,7 +36,7 @@ def test(data):
 if __name__ == "__main__":
     start = time.time()
     # Load data
-    data = pd.read_csv("/Users/nishantnair/DSCI-644/Project/DSCI-644/data_train.csv")
+    data = pd.read_csv("/Users/nishantnair/DSCI-644/Project/DSCI-644/datamulti_train.csv")
     # Replace missing values with empty strings
     data = data.fillna("")
     f1,prec = test(data)
