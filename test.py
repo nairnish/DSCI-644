@@ -36,11 +36,23 @@ def test(data):
 
     data = new.transpose()
 
+    y_df = y_test.to_frame()
+    pred_df = pd.DataFrame(predictions, columns=['predicted'])
+
+    y_df.to_csv('y_data', sep='\t', encoding='utf-8', index=False)
+    pred_df.to_csv('pred_data', sep='\t', encoding='utf-8', index=False)
+
+    # y_df.to_csv(index=False)
+    # pred_df.to_csv(index=False)
+
 
 
     print(data)
 
     print(conf)
+
+    print(y_test)
+    print(predictions)
     # print(confusion_matrix(y_test,predictions))
     class_name = np.unique(y)
     # print(confusion_matrix(y_test, predictions, labels=class_name))
@@ -115,7 +127,7 @@ def confusion(actuals, predictions, all_labels):
 if __name__ == "__main__":
     start = time.time()
     # Load data
-    data = pd.read_csv("/Users/nishantnair/DSCI-644/Project/DSCI-644/datamulti_train.csv")
+    data = pd.read_csv("/Users/nishantnair/DSCI-644/Project/DSCI-644/dataone_train .csv")
     # Replace missing values with empty strings
     data = data.fillna("")
     f1,prec = test(data)
