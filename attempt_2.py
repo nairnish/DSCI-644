@@ -56,7 +56,7 @@ class my_model():
         #                                ('classifier', SGDClassifier(class_weight="balanced"))])
 
         log_reg_pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                                       ('classifier', RandomForestClassifier())])
+                                       ('classifier', LinearSVC())])
 
         self.clf = log_reg_pipe
 

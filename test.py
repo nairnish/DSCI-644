@@ -11,10 +11,12 @@ from sklearn import metrics
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.svm import SVC, LinearSVC
 from sklearn.tree import DecisionTreeClassifier
+import numpy as np
 
 
 sys.path.insert(0, '..')
 from my_evaluation import my_evaluation
+from collections import Counter
 
 def test(data):
     clf = my_model()
@@ -27,10 +29,87 @@ def test(data):
     f1 = metrics.f1_score(y_test, predictions, average='micro')
     prec = metrics.precision_score(y_test, predictions, average='micro')
     print(classification_report(y_test,predictions))
+    # conf = {}
+    conf = confusion(y_test,predictions,y)
+
+    new = pd.DataFrame.from_dict(conf)
+
+    data = new.transpose()
+
+
+
+    print(data)
+
+    print(conf)
+    # print(confusion_matrix(y_test,predictions))
+    class_name = np.unique(y)
+    # print(confusion_matrix(y_test, predictions, labels=class_name))
+
+    # FP = confusion_matrix.sum(axis=0) - np.diag(confusion_matrix)
+    # FN = confusion_matrix.sum(axis=1) - np.diag(confusion_matrix)
+    # TP = np.diag(confusion_matrix)
+    # TN = confusion_matrix.values.sum() - (FP + FN + TP)
+    #
+    # # Sensitivity, hit rate, recall, or true positive rate
+    # TPR = TP / (TP + FN)
+    # # Specificity or true negative rate
+    # TNR = TN / (TN + FP)
+    # # Precision or positive predictive value
+    # PPV = TP / (TP + FP)
+    # # Negative predictive value
+    # NPV = TN / (TN + FN)
+    # # Fall out or false positive rate
+    # FPR = FP / (FP + TN)
+    # # False negative rate
+    # FNR = FN / (TP + FN)
+    # # False discovery rate
+    # FDR = FP / (TP + FP)
+    #
+    # # Overall accuracy
+    # ACC = (TP + TN) / (TP + FP + FN + TN)
+
+
+
     # eval = my_evaluation(predictions, y_test)
     # f1 = eval.f1(target=1)
     # prec = eval.
     return f1,prec
+
+def perf_measure(y_actual, y_hat):
+    TP = 0
+    FP = 0
+    TN = 0
+    FN = 0
+
+    for i in range(len(y_hat)):
+        if y_actual[i]==y_hat[i]==1:
+           TP += 1
+        if y_hat[i]==1 and y_actual[i]!=y_hat[i]:
+           FP += 1
+        if y_actual[i]==y_hat[i]==0:
+           TN += 1
+        if y_hat[i]==0 and y_actual[i]!=y_hat[i]:
+           FN += 1
+
+    return(TP, FP, TN, FN)
+
+def confusion(actuals, predictions, all_labels):
+        # compute confusion matrix for each class in self.classes_
+        # self.confusion_matrix = {self.classes_[i]: {"TP":tp, "TN": tn, "FP": fp, "FN": fn}}
+        # no return variables
+        # write your own code below
+        correct = predictions == actuals
+        acc = float(Counter(correct)[True])/len(correct)
+        conf_matrix = {}
+        class_name = np.unique(all_labels)
+        for label in class_name:
+            tp = Counter(correct & (predictions == label))[True]
+            fp = Counter((actuals != label) & (predictions == label))[True]
+            tn = Counter(correct & (predictions != label))[True]
+            fn = Counter((actuals == label) & (predictions != label))[True]
+            conf_matrix[label] = {"TP":tp, "TN": tn, "FP": fp, "FN": fn}
+        # print(conf_matrix)
+        return conf_matrix
 
 
 if __name__ == "__main__":
