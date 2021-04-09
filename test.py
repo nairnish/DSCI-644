@@ -36,11 +36,15 @@ def test(data):
 
     data = new.transpose()
 
+    x_test = y_test.axes[0].values
+
     y_df = y_test.to_frame()
+    x_df = pd.DataFrame(x_test, columns=['id'])
     pred_df = pd.DataFrame(predictions, columns=['predicted'])
 
-    y_df.to_csv('y_data', sep='\t', encoding='utf-8', index=False)
-    pred_df.to_csv('pred_data', sep='\t', encoding='utf-8', index=False)
+    y_df.to_csv('y_data.csv', sep='\t', encoding='utf-8', index=False)
+    x_df.to_csv('x_data.csv', sep='\t', encoding='utf-8', index=False)
+    pred_df.to_csv('pred_data.csv', sep='\t', encoding='utf-8', index=False)
 
     # y_df.to_csv(index=False)
     # pred_df.to_csv(index=False)
