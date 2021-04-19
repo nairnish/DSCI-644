@@ -1,5 +1,5 @@
 # DSCI-644
-Project Repository
+Project Repository\n
 This repository consists of the below items:
 1. Raw data file - "project1-commitsRefactoring.xlsx" - Consists the base raw data excluding the duplicates (entire row occuring more than once)
 2. data_train.csv - Train data extracted from Raw data file
