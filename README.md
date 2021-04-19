@@ -1,5 +1,4 @@
-# DSCI-644
-Project Repository
+# DSCI-644 Project Repository
 
 **This repository consists of the items below:**
 1. Raw data file - "project1-commitsRefactoring.xlsx" - Consists the base raw data excluding the duplicates (entire row occuring more than once)
@@ -12,7 +11,8 @@ Project Repository
 **Note: This repository contains several experimentation codes. For Phase-3 of the project, refer to prod.py and test.py**
 
 Steps for Execution:
-1. Run test.py -> This executes prod.py file which contains the implementation
+1. Run test.py -> This executes prod.py file which contains the implementation. Currently this code executes dataone_train.csv (single class data)
+2. To run multi-class - comment out line #105 and uncomment out line #108 to execute datamulti_train.csv (multi class data)
 
 
 
