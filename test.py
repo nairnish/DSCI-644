@@ -1,7 +1,7 @@
 import time
 import sys
 import pandas as pd
-from attempt_2 import my_model
+from prod import my_model
 from sklearn.compose import ColumnTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import StratifiedKFold, train_test_split
