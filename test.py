@@ -20,16 +20,23 @@ from collections import Counter
 
 def test(data):
     clf = my_model()
+    # y - Refactoring labels
     y = data["REFACTORINGS (LABELS)"]
+    # X - Commit Texts
     X = data.drop(['REFACTORINGS (LABELS)'], axis=1)
 
+    # Splitting into train and test data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # fit
     clf.fit(X_train, y_train)
+    # predictions
     predictions = clf.predict(X_test)
+    # scores
     f1 = metrics.f1_score(y_test, predictions, average='micro')
     prec = metrics.precision_score(y_test, predictions, average='micro')
     print(classification_report(y_test,predictions))
-    # conf = {}
+
+    # confusion matrix
     conf = confusion(y_test,predictions,y)
 
     new = pd.DataFrame.from_dict(conf)
@@ -42,14 +49,10 @@ def test(data):
     x_df = pd.DataFrame(x_test, columns=['id'])
     pred_df = pd.DataFrame(predictions, columns=['predicted'])
 
+    # Exporting predictions to analyse tp, fp, tn, fn
     y_df.to_csv('y_data.csv', sep='\t', encoding='utf-8', index=False)
     x_df.to_csv('x_data.csv', sep='\t', encoding='utf-8', index=False)
     pred_df.to_csv('pred_data.csv', sep='\t', encoding='utf-8', index=False)
-
-    # y_df.to_csv(index=False)
-    # pred_df.to_csv(index=False)
-
-
 
     print(data)
 
@@ -57,38 +60,6 @@ def test(data):
 
     print(y_test)
     print(predictions)
-    # print(confusion_matrix(y_test,predictions))
-    class_name = np.unique(y)
-    # print(confusion_matrix(y_test, predictions, labels=class_name))
-
-    # FP = confusion_matrix.sum(axis=0) - np.diag(confusion_matrix)
-    # FN = confusion_matrix.sum(axis=1) - np.diag(confusion_matrix)
-    # TP = np.diag(confusion_matrix)
-    # TN = confusion_matrix.values.sum() - (FP + FN + TP)
-    #
-    # # Sensitivity, hit rate, recall, or true positive rate
-    # TPR = TP / (TP + FN)
-    # # Specificity or true negative rate
-    # TNR = TN / (TN + FP)
-    # # Precision or positive predictive value
-    # PPV = TP / (TP + FP)
-    # # Negative predictive value
-    # NPV = TN / (TN + FN)
-    # # Fall out or false positive rate
-    # FPR = FP / (FP + TN)
-    # # False negative rate
-    # FNR = FN / (TP + FN)
-    # # False discovery rate
-    # FDR = FP / (TP + FP)
-    #
-    # # Overall accuracy
-    # ACC = (TP + TN) / (TP + FP + FN + TN)
-
-
-
-    # eval = my_evaluation(predictions, y_test)
-    # f1 = eval.f1(target=1)
-    # prec = eval.
     return f1,prec
 
 def perf_measure(y_actual, y_hat):
@@ -139,31 +110,3 @@ if __name__ == "__main__":
     print("Precision score: %f" % prec)
     runtime = (time.time() - start) / 60.0
     print(runtime)
-
-    # Fit model
-    # clf = my_model()
-    # y = data["REFACTORINGS (LABELS)"]
-    # X = data.drop(['REFACTORINGS (LABELS)'], axis=1)
-    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    # clf.fit(X_train, y_train)
-    # # clf.fit(X, y)
-    # # Predict on training data
-    # predictions = clf.predict(X_test)
-    # print(predictions)
-    # # print(probs)
-    # Predict probabilities
-    # probs = clf.predict_proba(X)
-    # probs = pd.DataFrame({key: probs[:, i] for i, key in enumerate(clf.classes_)})
-    # Evaluate results
-    # metrics = my_evaluation(predictions, y, probs)
-    # result = {}
-    # for target in clf.classes_:
-    #     result[target] = {}
-    #     result[target]["prec"] = metrics.precision(target)
-    #     result[target]["recall"] = metrics.recall(target)
-    #     result[target]["f1"] = metrics.f1(target)
-    #     result[target]["auc"] = metrics.auc(target)
-    # print(result)
-    # f1 = {average: metrics.f1(target=None, average=average) for average in ["macro", "micro", "weighted"]}
-    # print("Average F1 scores: ")
-    # print(f1)
