@@ -86,28 +86,28 @@ class my_model():
         df = pd.DataFrame(X)
 
         # Converting all text to lower case
-        df['FEATURE REQUEST'] = df['FEATURE REQUEST'].str.lower()
+        df['FEATUREREQUEST'] = df['FEATUREREQUEST'].str.lower()
         df['SMELLS'] = df['SMELLS'].str.lower()
 
         # Removal of special characters
         for char in spec_chars:
-            df['FEATURE REQUEST'] = df['FEATURE REQUEST'].str.replace(char, ' ')
+            df['FEATUREREQUEST'] = df['FEATUREREQUEST'].str.replace(char, ' ')
             df['SMELLS'] = df['SMELLS'].str.replace(char, ' ')
 
         # Removal of numbers
         for number in numbers:
-            df['FEATURE REQUEST'] = df['FEATURE REQUEST'].str.replace(number, ' ')
+            df['FEATUREREQUEST'] = df['FEATUREREQUEST'].str.replace(number, ' ')
             df['SMELLS'] = df['SMELLS'].str.replace(number, ' ')
 
         # Removal of web tags
-        df['FEATURE REQUEST'] = df['FEATURE REQUEST'].str.replace('https?://\S+|www\.\S+', ' ')
+        df['FEATUREREQUEST'] = df['FEATUREREQUEST'].str.replace('https?://\S+|www\.\S+', ' ')
         df['SMELLS'] = df['SMELLS'].str.replace('https?://\S+|www\.\S+', ' ')
 
         # Combining text features
-        df['combined_text'] = df['FEATURE REQUEST'] + " " + df['SMELLS']
+        df['combined_text'] = df['FEATUREREQUEST'] + " " + df['SMELLS']
 
         # dropping columns that are not required
-        drop_cols = ['FEATURE REQUEST', 'SMELLS']
+        drop_cols = ['FEATUREREQUEST', 'SMELLS']
         df = df.drop(drop_cols, axis=1)
 
         # Stopword removal

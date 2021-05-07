@@ -1,1059 +1,729 @@
 predicted
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Move Class,Rename Class,Move And Rename Class,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Move Class,Move Method,Move Attribute,
-   Move And Rename Class,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,Move Method,Move Attribute,
-Move Method,Extract Method,Inline Method,
-   Rename Class,Extract Superclass,Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Move And Rename Class,Extract Superclass,Pull Up Method,Move Method,Move Attribute,
-   Rename Method,
-   Extract Method,Inline Method,
-   Move Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Move Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Class,Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Move Method,Extract Method,
-   Rename Method,
-Rename Method,
-Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move And Rename Class,Extract Interface,
-Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Class,Extract Superclass,
-   Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Rename Class,Move Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Move And Rename Class,Rename Method,Move Method,Move Attribute,
-Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Move And Rename Class,
-   Rename Method,
-   Move And Rename Class,
-Rename Method,Move Method,Move Attribute,
-   Rename Method,
-   Rename Class,Rename Method,
-   Rename Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,Move Method,Inline Method,Move Attribute,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Class,Rename Method,Move Method,Move Attribute,
-   Rename Class,Move And Rename Class,Pull Up Method,Push Down Method,Move Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Inline Method,
-   Rename Method,
-   Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Class,Move And Rename Class,Extract Interface,Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Extract Method,
-Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Move Method,Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,
-Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Move Method,Inline Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Push Down Method,Inline Method,Push Down Attribute,
-   Rename Method,
-Rename Method,Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Rename Method,
-   Rename Class,Move Class,Rename Method,Push Down Method,Extract Method,
-   Move Method,Extract Method,Move Attribute,
-   Extract Superclass,Extract Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Inline Method,
-   Move Class,Move Method,Extract Method,Move Attribute,
-   Move Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Move Attribute,
-   Rename Class,Rename Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Move Method,Extract Method,Move Attribute,
-Rename Method,
-   Rename Method,Extract Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Class,Move Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Pull Up Method,Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Move Class,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,Push Down Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Move Class,Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Extract Interface,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Move Method,Extract Method,Inline Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Class,Move Method,Inline Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Extract Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Move Method,Move Attribute,
-Rename Method,
-   Rename Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Move Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Move Class,Move Method,Move Attribute,
-   Rename Class,Rename Method,Move Method,Extract Method,Move Attribute,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Extract Method,Inline Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Class,Pull Up Method,Pull Up Attribute,
-   Move Class,Extract Method,
-Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Move And Rename Class,
-   Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Move And Rename Class,Rename Method,Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Move And Rename Class,Move Class,Rename Method,Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-Move Class,Move Method,Inline Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Extract Superclass,Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Class,Move And Rename Class,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Inline Method,
-   Rename Method,
-Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-Push Down Method,Push Down Attribute,Move Attribute,
-   Move Method,Extract Method,Move Attribute,
-Rename Class,Rename Method,Inline Method,Pull Up Attribute,
-Move Class,Rename Method,Move Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Extract Superclass,Extract Method,
-   Rename Method,Move Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Class,Rename Method,
-   Rename Method,
-Move Class,Move Method,Move Attribute,
-   Rename Method,
-   Extract Superclass,Pull Up Method,Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,Move Method,
-   Extract Method,Inline Method,
-   Move Class,Move And Rename Class,Rename Class,Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,Push Down Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Push Down Method,Extract Method,Push Down Attribute,
-   Rename Method,Extract Method,
-Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Move Class,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Extract Interface,Rename Method,Extract Method,
-   Move And Rename Class,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Extract Superclass,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Extract Superclass,Extract Method,
-   Rename Method,
-   Move Class,Rename Method,Move Method,Inline Method,Move Attribute,
-   Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Extract Method,Inline Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move And Rename Class,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,
-   Move And Rename Class,Rename Method,Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Pull Up Method,Pull Up Attribute,
-Rename Class,Rename Method,Move Method,Extract Method,
-Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Move And Rename Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Move Class,Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Move And Rename Class,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Move Class,Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Move Method,Extract Method,Inline Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Move Class,Move And Rename Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Pull Up Method,Move Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Move Class,Move Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Inline Method,
-   Rename Method,
-   Pull Up Method,Extract Method,
-Rename Method,
-   Rename Method,
-   Move Class,Move And Rename Class,Rename Method,Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Move Class,Rename Method,Extract Method,
-   Move Class,Move Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Class,Extract Interface,Rename Method,Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Push Down Method,Move Method,
-   Rename Class,Rename Method,
-   Rename Method,
-   Rename Method,Push Down Method,Extract Method,Push Down Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Class,Push Down Method,
-   Extract Interface,Extract Method,
-   Pull Up Method,Pull Up Attribute,
-   Move Class,Rename Class,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Move Class,Rename Class,Push Down Method,Move Method,Extract Method,Push Down Attribute,Move Attribute,
-   Rename Class,Extract Interface,Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Extract Method,Inline Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,Extract Method,Inline Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Rename Class,Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,Inline Method,
-   Rename Method,
-   Pull Up Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-Rename Class,Extract Interface,Rename Method,Pull Up Method,Inline Method,
-   Rename Method,Extract Method,
-   Move Class,Rename Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Class,Extract Interface,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Extract Interface,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Method,
-   Rename Class,Move Attribute,
-   Rename Method,Extract Method,
-   Move Class,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Method,Extract Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Class,Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Move Class,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Move Class,Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Rename Method,
-   Extract Superclass,Rename Method,
-Rename Class,Rename Method,Move Method,
-   Extract Interface,Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Move And Rename Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Move Class,Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Extract Superclass,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Class,Rename Method,Push Down Method,Move Method,Push Down Attribute,
-   Rename Method,Extract Method,
-   Rename Class,Extract Superclass,Rename Method,Extract Method,
-Move Class,Rename Method,
-Rename Method,Extract Method,
-   Rename Method,Move Method,Extract Method,Inline Method,
-   Rename Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,Inline Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Class,Move And Rename Class,Extract Superclass,Rename Method,Pull Up Method,Move Method,Pull Up Attribute,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Class,Rename Method,Move Method,Inline Method,
-   Move And Rename Class,Pull Up Method,
-   Rename Method,
-Rename Class,Move And Rename Class,Rename Method,Pull Up Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Class,Rename Method,Move Method,Extract Method,Inline Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Extract Superclass,Pull Up Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Move Class,Rename Class,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Move Class,Rename Method,Move Method,Move Attribute,
-   Rename Method,
-Rename Method,Move Method,Extract Method,
-Rename Class,Rename Method,Extract Method,Inline Method,
-   Rename Method,
-   Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Class,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Move Method,Inline Method,Move Attribute,
-Rename Method,Extract Method,
-Move Method,Extract Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Move Method,Extract Method,
-   Rename Method,Move Method,Extract Method,Move Attribute,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Class,Move Method,Inline Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,Move Method,Inline Method,Move Attribute,
-   Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Extract Superclass,Pull Up Method,Extract Method,Pull Up Attribute,
-Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-Rename Method,Move Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Extract Interface,Move Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,
-Rename Method,Extract Method,
-   Move Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Inline Method,
-Rename Method,Extract Method,Move Attribute,
-Rename Method,Extract Method,
-Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move And Rename Class,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Pull Up Method,Pull Up Attribute,
-   Rename Method,Extract Method,
-   Move Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Move Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Extract Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Method,
-   Move Class,Rename Method,Inline Method,
-Extract Superclass,Rename Method,Extract Method,
-Rename Method,
-   Rename Method,Inline Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Move Method,Extract Method,Inline Method,
-   Rename Method,
-Rename Method,Move Method,Move Attribute,
-   Rename Method,Extract Method,
-   Rename Method,
-   Move Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Class,Move And Rename Class,Rename Method,Move Method,Extract Method,Inline Method,Move Attribute,
-   Rename Method,
-Move Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-Rename Method,
-   Move Class,Move Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Pull Up Method,Extract Method,Pull Up Attribute,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-Extract Superclass,Move Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Method,Extract Method,
-   Move Class,Extract Method,
-Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Class,Move Method,
-   Rename Method,Inline Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,Extract Method,Move Attribute,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Rename Class,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,
-   Move Class,Rename Class,Rename Method,Extract Method,
-   Rename Method,Extract Method,
-Rename Method,Extract Method,
-   Rename Class,Push Down Method,
-   Rename Method,
-   Rename Method,
-   Move And Rename Class,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Rename Class,Rename Method,
-   Rename Method,
-   Rename Method,
-   Rename Method,Extract Method,
-   Rename Method,
-   Rename Method,
-Rename Method,Extract Method,
-   Rename Method,Extract Method,
-   Pull Up Method,Extract Method,Move Attribute,
-   Rename Method,
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Move Method
+Move Class
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Class
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Move Class
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Move Class
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Move Class
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Move Class
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Move Class
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Move Class
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Move Class
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Move Class
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Move Class
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Class
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Move Class
+Extract Method
+Rename Method
+Extract Method
+Move Class
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Move Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Rename Method
+Rename Method
+Extract Method
+Move Class
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Move Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Move Class
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Rename Method
+Rename Method
+Extract Method
+Extract Method
+Rename Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method
+Extract Method

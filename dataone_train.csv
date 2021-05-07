@@ -1,4 +1,4 @@
-﻿REFACTORINGS (LABELS),FEATURE REQUEST,SMELLS
+﻿LABELS,FEATUREREQUEST,SMELLS
 "   Extract Method,","Add RelMetadataProvider parameter to standard planner Programs The Programs class has a static method standard() used by the default Calcite driver. So far Calcite-Phoenix is using the same sql prepare logic with some slight customization, like plugging in a set of its own rules. The static standard(), though, does not work properly for Phoenix since some sub-programs it returns are initiated with the default RelMetadataProvider while Phoenix needs to plug-in its own, otherwise it just could not work.
 {code}
   /** Program that converts filters and projects to {@link Calc}s. */

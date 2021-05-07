@@ -21,9 +21,9 @@ from collections import Counter
 def test(data):
     clf = my_model()
     # y - Refactoring labels
-    y = data["REFACTORINGS (LABELS)"]
+    y = data["LABELS"]
     # X - Commit Texts
-    X = data.drop(['REFACTORINGS (LABELS)'], axis=1)
+    X = data.drop(['LABELS'], axis=1)
 
     # Splitting into train and test data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -34,12 +34,15 @@ def test(data):
     # scores
     f1 = metrics.f1_score(y_test, predictions, average='micro')
     prec = metrics.precision_score(y_test, predictions, average='micro')
+    recall = metrics.recall_score(y_test, predictions, average='micro')
     print(classification_report(y_test,predictions))
 
     # confusion matrix
     conf = confusion(y_test,predictions,y)
 
     new = pd.DataFrame.from_dict(conf)
+
+    new.to_csv('new_data.csv', sep='\t', encoding='utf-8', index=False)
 
     data = new.transpose()
 
@@ -60,7 +63,7 @@ def test(data):
 
     print(y_test)
     print(predictions)
-    return f1,prec
+    return f1,prec,recall
 
 def perf_measure(y_actual, y_hat):
     TP = 0
@@ -98,6 +101,10 @@ def confusion(actuals, predictions, all_labels):
         # print(conf_matrix)
         return conf_matrix
 
+def remove_duplicates(X):
+    result_df = X.drop_duplicates(subset=['FEATUREREQUEST'], keep=False)
+    return result_df
+
 
 if __name__ == "__main__":
     start = time.time()
@@ -109,8 +116,34 @@ if __name__ == "__main__":
 
     # Replace missing values with empty strings
     data = data.fillna("")
-    f1,prec = test(data)
+
+    data['LABELS'] = data['LABELS'].str.replace(',', '')
+    data['LABELS'] = data['LABELS'].str.replace('\'', '')
+
+    data['FEATUREREQUEST'] = data['FEATUREREQUEST'].str.strip()
+    data['LABELS'] = data['LABELS'].str.strip()
+
+    # Remove duplicates
+    data = remove_duplicates(data)
+
+    # Getting the occurrences of each newGroup to check for class imbalance
+    occurrences = data['LABELS'].value_counts()
+    print(occurrences)
+
+    # Getting the unique list of newsGroup
+    classes = list(data.LABELS.unique())
+
+    # Getting required classes only
+    req_class = list()
+
+    data = data.loc[data['LABELS'].isin(occurrences.index[occurrences > 100])]
+
+    occurrences = data['LABELS'].value_counts()
+    print(occurrences)
+
+    f1,prec,rec = test(data)
     print("F1 score: %f" % f1)
     print("Precision score: %f" % prec)
+    print("Recall score: %f" % rec)
     runtime = (time.time() - start) / 60.0
     print(runtime)
