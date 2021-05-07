@@ -27,8 +27,47 @@ def test(data):
 
     # Splitting into train and test data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # combine X and y in 1 data
+    y1 = pd.DataFrame(y_train)
+    X1 = pd.DataFrame(X_train)
+    X1.index = y1.index
+    data1 = pd.concat([X1, y1], axis=1)
+
+    # oversampling records with fraudulent records
+    data_1f = data1[data1.LABELS == 'Inline Method']
+    original_data = data1.copy()
+    data1 = pd.concat([data1] + [data_1f] * 8, axis=0)
+
+    # oversampling records with fraudulent records
+    data_1f = data1[data1.LABELS == 'Rename Class']
+    original_data = data1.copy()
+    data1 = pd.concat([data1] + [data_1f] * 8, axis=0)
+
+    # oversampling records with fraudulent records
+    data_1f = data1[data1.LABELS == 'Move Method']
+    original_data = data1.copy()
+    data1 = pd.concat([data1] + [data_1f] * 9, axis=0)
+
+    # oversampling records with fraudulent records
+    data_1f = data1[data1.LABELS == 'Move Class']
+    original_data = data1.copy()
+    data1 = pd.concat([data1] + [data_1f] * 8, axis=0)
+
+    # oversampling records with fraudulent records
+    data_1f = data1[data1.LABELS == 'Move Attribute']
+    original_data = data1.copy()
+    data1 = pd.concat([data1] + [data_1f] * 20, axis=0)
+
+    occurrences = data1['LABELS'].value_counts()
+    print(occurrences)
+
+    y_train1 = data1["LABELS"]
+    # X - Commit Texts
+    X_train1 = data1.drop(['LABELS'], axis=1)
+
     # fit
-    clf.fit(X_train, y_train)
+    clf.fit(X_train1, y_train1)
     # predictions
     predictions = clf.predict(X_test)
     # scores
@@ -136,7 +175,35 @@ if __name__ == "__main__":
     # Getting required classes only
     req_class = list()
 
-    data = data.loc[data['LABELS'].isin(occurrences.index[occurrences > 100])]
+    data = data.loc[data['LABELS'].isin(occurrences.index[occurrences > 50])]
+
+    occurrences = data['LABELS'].value_counts()
+    print(occurrences)
+
+    # # oversampling records with fraudulent records
+    # data_1f = data[data.LABELS == 'Move Attribute']
+    # original_data = data.copy()
+    # data = pd.concat([data] + [data_1f] * 10, axis=0)
+    #
+    # # oversampling records with fraudulent records
+    # data_1f = data[data.LABELS == 'Inline Method']
+    # original_data = data.copy()
+    # data = pd.concat([data] + [data_1f] * 3, axis=0)
+    #
+    # # oversampling records with fraudulent records
+    # data_1f = data[data.LABELS == 'Rename Class']
+    # original_data = data.copy()
+    # data = pd.concat([data] + [data_1f] * 3, axis=0)
+    #
+    # # oversampling records with fraudulent records
+    # data_1f = data[data.LABELS == 'Move Method']
+    # original_data = data.copy()
+    # data = pd.concat([data] + [data_1f] * 3, axis=0)
+    #
+    # # oversampling records with fraudulent records
+    # data_1f = data[data.LABELS == 'Move Class']
+    # original_data = data.copy()
+    # data = pd.concat([data] + [data_1f] * 3, axis=0)
 
     occurrences = data['LABELS'].value_counts()
     print(occurrences)
